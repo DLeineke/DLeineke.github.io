@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 2</title>
+    <style>
+      #secret {
+        display: none;
+      }
+      #super-secret {
+        display: none;
+      }
+      #secret:target {
+        display: block;
+      }
+      #super-secret:target {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is my Title ☻</h1>
+    <p>The <strong>Unity game engine</strong> was first developed by a company called <strong>"Over the Edge Entertainment"</strong> in Denmark, 
+      but the company went bankrupt before the engine could be released. Unity's co-founders, <strong>David Helgason, Nicholas Francis, and Joachim Ante</strong>,
+      then acquired the technology and started <strong>Unity Technologies</strong> in 2004, which led to the development and success of the
+       <a href="https://unity.com/">Unity engine</a> we know today.
+    </p>
+
+    <a href="#secret">
+      <img src="https://images.contentstack.io/v3/assets/blt08c1239a7bff8ff5/bltdff1a2920dd347a5/63f5068a97790d11728d0a6d/U_Logo_Small_black.svg" width="150" alt="Link's dead rip">
+    </a>
+    <hr>
+    <div id="secret">
+      <h2>Nice! Hidden Section!</h2>
+      <li>I'm not too sure what to put here...</li>
+      <li>So I'll just make this quick.</li>
+      <li>Lorem ipsum, dolor sit amet blah blah blah...</li>
+      <li>Man I sure wish someone would develop me more ☹</li>
+      <a href="#super-secret"><hr></a>
+    </div>
+    <div id="super-secret">
+      <h3>Alright, that's enough of this. Last one.</h3>
+      <p>Unless you can find the real last one...</p>
+    </div>
+
+    <footer>
+      <ul>
+        <li><a href="hello.html">Hello!</a></li>
+        <li><a href="goodbye.html">Goodbye.</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
